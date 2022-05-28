@@ -7,13 +7,17 @@
   color: #fff;
 }
 
+body {
+  background: url(../img/fundo2.jpg) no-repeat center;
+  background-size: cover;
+}
+
 header {
   min-height: 9vh;
   display: flex;
   align-items: center;
   justify-content: center;
-  background: linear-gradient(#1a123b, #3a1553) rgba(0, 5, 26, 0.7);
-  backdrop-filter: blur(10px);
+  background: transparent;
 }
 
 h1 {
@@ -24,16 +28,9 @@ h1 {
 main {
   width: 100%;
   min-height: 100vh;
-  background: linear-gradient(#18acfe, #2629e2);
 
   display: flex;
   justify-content: center;
-
-  box-shadow: inset 0px 2px 3px rgba(0, 0, 0, 0.25);
-  background-image: url(../img/fundo2.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
 }
 
 main form {
